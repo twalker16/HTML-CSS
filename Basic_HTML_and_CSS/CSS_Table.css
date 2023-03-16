@@ -1,0 +1,11 @@
+table{
+    background-color: papayawhip;
+    color:tomato;
+    border:blue;
+    border-width: 10px;
+    border-style:dashed;
+}
+td:hover{
+    background-color: plum;
+    color:wheat
+}
