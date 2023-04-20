@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Tyler Walker | Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="./css/Portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video" src="./img/vinyl.mp4"><!-- https://pixabay.com/videos/keyboard-typing-computer-office-8246/ -->
+                <!-- <source src="./img/source-code-4733.mp4" type="video/mp4">  -->
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Tyler Walker Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>Falling in love with code means falling in love with problem solving and being a part of a forever ongoing conversation.
+                        <br>To be a computer programmer does not mean to live in isolation and solitude, but rather the exact opposite.
+                    </q>
+                    <br> -Kathryn Barrett
+                    <br>
+                    <br> My name is Tyler. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2 fadein">
+                <img src="./img/face.jpg">
+                <!-- <div class="img_container">
+                    <img id="f3" src="./img/Music.gif">
+                    <img id="f1" src="./img/GitHub.png">
+                </div> -->
+                <!-- <img src="images/html_custom.png" alt="Replace with your own image and description"> -->
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a software developer who loves to code! In my free time I love playing music, spending time with my family, and work on passion projects.
+                    <br>
+                    <br>I am a graduate of <a href="https://devmountain.com/" target="_blank">DevMountian</a>'s and <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camps. I am trained and experienced in the following and programming languages: HTML, CSS, JavaScript, Python, SQL, C# and <a href='#skills'>more</a>. 
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p class="center">
+                    You can view my GitHub page here: <a href="https://github.com/twalker16" target="_blank">My Github </a>
+                    <br>
+                    Or you can view some of my projects down below by clicking here: <a href="#projects">My Projects</a>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/twalker16" target="_blank"><img src="./img/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./img/messaging.jpg" alt="Contact_Image"> <!-- https://unsplash.com/photos/mZNRsYE9Qi4 -->
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>

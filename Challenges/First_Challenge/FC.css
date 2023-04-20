@@ -1,0 +1,9 @@
+img{
+    width: 30%;
+    height:40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter:hue-rotate(210deg);
+    border-radius: 50px 20px;
+}

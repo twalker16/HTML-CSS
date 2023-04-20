@@ -1,0 +1,15 @@
+.column {
+    float: left;
+    width: 50%;
+    color:yellow;
+    height:10%;
+    width:40%
+}
+
+#c1{
+    background-color: aqua;
+}
+
+#c2{
+    background-color: burlywood;
+}

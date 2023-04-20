@@ -1,0 +1,9 @@
+p{
+    color:red;
+    font-size: large;
+}
+p:hover{
+    color:blue;
+    font-size:larger;
+    transition-delay: 200ms;
+}
